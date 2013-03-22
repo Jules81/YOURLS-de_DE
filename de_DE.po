@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.6\n"
 "POT-Creation-Date: 2013-02-15 15:33+0100\n"
-"PO-Revision-Date: 2013-03-22 00:58+0100\n"
+"PO-Revision-Date: 2013-03-22 01:20+0100\n"
 "Last-Translator: Julian Sternberg <admin@ispire.me>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -136,7 +136,7 @@ msgstr[1] "%s Treffer"
 
 #: yourls-infos.php:426
 msgid "No traffic yet. Get some clicks first!"
-msgstr "Zu wenig Traffic. Erhalte mehr Klicks!"
+msgstr "Zu wenig Traffic. Sie brauchen mehr Klicks!"
 
 #: yourls-infos.php:441
 msgid "Top 5 countries"
@@ -148,7 +148,7 @@ msgstr "Gesamter Traffic"
 
 #: yourls-infos.php:463
 msgid "No country data."
-msgstr "Keine GEO Daten."
+msgstr "Keine GEO Daten vorhanden."
 
 #: yourls-infos.php:469
 msgid "Traffic Sources"
@@ -199,7 +199,7 @@ msgstr "Referrer Traffic:"
 
 #: yourls-infos.php:531
 msgid "No referrer data."
-msgstr "Keine Referrer Daten."
+msgstr "Keine Referrer Daten vorhanden."
 
 #: yourls-infos.php:542
 msgid "Short link"
