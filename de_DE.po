@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.6\n"
 "POT-Creation-Date: 2013-02-15 15:33+0100\n"
-"PO-Revision-Date: 2013-03-21 23:30+0100\n"
+"PO-Revision-Date: 2013-03-22 00:58+0100\n"
 "Last-Translator: Julian Sternberg <admin@ispire.me>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -428,14 +428,14 @@ msgstr ""
 
 #: admin/tools.php:17
 msgid "Standard or Instant, Simple or Custom"
-msgstr "Standart oder Sofort, Einfach oder Benutzerspezifisch"
+msgstr "Standard oder direkt, einfach oder benutzerspezifisch"
 
 #: admin/tools.php:20
 msgid ""
 "The <span>Standard Bookmarklets</span> will take you to a page where you can "
 "easily edit or delete your brand new short URL."
 msgstr ""
-"Das <span>Standart Bookmarklets</span> leitet sie zur Seite weiter wo Sie "
+"Das <span>Standard Bookmarklets</span> leitet sie zur Seite weiter wo Sie "
 "ganz einfach neue Short URL editieren oder löschen können."
 
 #: admin/tools.php:22
@@ -443,7 +443,7 @@ msgid ""
 "The <span>Instant Bookmarklets</span> will pop the short URL without leaving "
 "the page you are viewing."
 msgstr ""
-"Über die <span>sofort Bookmarklets</span> können Sie Short URL anlegen ohne "
+"Über die <span>direkt Bookmarklets</span> können Sie Short URL anlegen ohne "
 "die aktuelle Seite zu verlassen auf der Sie sich befinden."
 
 #: admin/tools.php:24
@@ -467,7 +467,7 @@ msgid ""
 "With the Standard Bookmarklets you will also get a <span>Quick Share</span> "
 "tool box to make posting to Twitter, Facebook or Friendfeed a snap."
 msgstr ""
-"Das Standart Bookmarklets enthält eine <span>Quick Share</span> Tool Box mit "
+"Das Standard Bookmarklets enthält eine <span>Quick Share</span> Tool Box mit "
 "der Sie das Posten auf Twitter, Facebook oder Friendfeed beschleunigen "
 "können."
 
@@ -497,7 +497,7 @@ msgstr "Standard (neue Seite)"
 
 #: admin/tools.php:44
 msgid "Instant (popup)"
-msgstr "Instant (popup)"
+msgstr "Direkt (popup)"
 
 #: admin/tools.php:49
 msgid "Simple"
@@ -513,7 +513,7 @@ msgstr "Shorten"
 
 #: admin/tools.php:51
 msgid "Instant Shorten"
-msgstr "sofort Shorten"
+msgstr "direkt Shorten"
 
 #: admin/tools.php:54
 msgid "Custom Keyword"
@@ -525,14 +525,14 @@ msgstr "Benutzerspezifisch shorten"
 
 #: admin/tools.php:56
 msgid "Instant Custom Shorten"
-msgstr "sofort benutzerdefiniert Shorten"
+msgstr "direkt benutzerdefiniert Shorten"
 
 #: admin/tools.php:61
 msgid "Prefix-n-Shorten"
 msgstr "Prefix-n-Shorten"
 
 #: admin/tools.php:63
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "When viewing a page, you can also prefix its full URL: just head to your "
 "browser's address bar, add \"<span>%s</span>\" to the beginning of the "
@@ -671,7 +671,6 @@ msgstr ""
 "Fehler zu beheben ist."
 
 #: admin/upgrade.php:55
-#, fuzzy
 msgid ""
 "If everything goes too fast and you cannot read, <span class=\"success"
 "\">good for you</span>, let it go :)"
@@ -714,7 +713,7 @@ msgid ""
 "<tt>config.php</tt>"
 msgstr ""
 "<strong>Hinweis</strong>: Ihr Passwort wurde in Klartext in Config-Datei "
-"<tt>config.php</tt> abgespeichert"
+"<tt>config.php</tt> abgespeichert. "
 
 #: includes/functions-auth.php:117
 msgid ""
@@ -722,15 +721,15 @@ msgid ""
 "<strong>encrypting</strong> your password?"
 msgstr ""
 "Wussten Sie das Sie die Sicherheit Ihrer YOURLS Installation verbessern "
-"können, indem Sie Ihre Passwörter <strong>verschlüsselt</strong> ablegen?"
+"können, indem Sie Ihre Passwörter <strong>verschlüsselt</strong> ablegen? "
 
 #: includes/functions-auth.php:118
 msgid ""
 "See <a href=\"http://yourls.org/userpassword\">UsernamePassword</a> for "
 "details"
 msgstr ""
-"Siehe hier <a href=\"http://yourls.org/userpassword\">UsernamePassword</a> "
-"für Details"
+"Mehr Informationen gibt es hier <a href=\"http://yourls.org/userpassword"
+"\">UsernamePassword</a>"
 
 #: includes/functions-html.php:140
 #, php-format
@@ -758,7 +757,7 @@ msgstr "Spezifischer Short URL"
 
 #: includes/functions-html.php:174
 msgid "Shorten The URL"
-msgstr "Shorten Die URL"
+msgstr "Shorte die URL"
 
 #: includes/functions-html.php:200
 msgid "Search for"
@@ -815,7 +814,7 @@ msgstr "Klicks"
 
 #: includes/functions-html.php:234
 msgid "Show links created"
-msgstr "Zeige erstelle Links"
+msgstr "Zeige erstellte Links"
 
 #: includes/functions-html.php:236
 msgid "before"
